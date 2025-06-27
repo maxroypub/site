@@ -5,47 +5,40 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MAX ROY - Agence de Publicité</title>
-    <style>
-        body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
-        header { background-color: #111; color: white; padding: 20px; text-align: center; }
-        nav { background-color: #333; padding: 10px; text-align: center; }
-        nav a { color: white; margin: 0 15px; text-decoration: none; }
-        section { padding: 40px; }
-        footer { background-color: #111; color: white; text-align: center; padding: 10px; }
-        img.logo { max-height: 80px; margin-bottom: 10px; }
-        .portfolio img { width: 100%; max-width: 400px; margin-top: 10px; }
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
         <img src="logo.png" alt="MAX ROY Logo" class="logo">
-        <h1>MAX ROY - Agence de Publicité Créative à Casablanca</h1>
+        <h1>MAX ROY</h1>
+        <p>Agence de Publicité Créative à Casablanca</p>
     </header>
-    <nav>
-        <a href="#services">Services</a>
-        <a href="#portfolio">Portfolio</a>
-        <a href="#contact">Contact</a>
-    </nav>
-    <section id="services">
+    <section class="services">
         <h2>Nos Services</h2>
-        <ul>
-            <li>Création graphique & branding</li>
-            <li>Publicité visuelle (enseignes, panneaux...)</li>
-            <li>Impression tous formats</li>
-            <li>Conception de stands & PLV</li>
-        </ul>
-    </section>
-    <section id="portfolio" class="portfolio">
-        <h2>Nos Réalisations</h2>
-        <img src="project1.jpg" alt="Projet 1">
-    </section>
-    <section id="contact">
-        <h2>Contact</h2>
-        <p>Email : 01.max.roy@gmail.com</p>
-        <p>Adresse : Ain Sebaa, Casablanca</p>
+        <div class="service">
+            <img src="service1.jpg" alt="Conception Graphique">
+            <div>
+                <h3>Conception Graphique</h3>
+                <p>Création de visuels percutants adaptés à votre image de marque.</p>
+            </div>
+        </div>
+        <div class="service">
+            <img src="service2.jpg" alt="Publicité Extérieure">
+            <div>
+                <h3>Publicité Extérieure</h3>
+                <p>Affichage urbain et signalétique pour une visibilité maximale.</p>
+            </div>
+        </div>
+        <div class="service">
+            <img src="service3.jpg" alt="Marketing Digital">
+            <div>
+                <h3>Marketing Digital</h3>
+                <p>Gestion des campagnes en ligne, réseaux sociaux & plus encore.</p>
+            </div>
+        </div>
     </section>
     <footer>
-        &copy; 2025 MAX ROY - Tous droits réservés
+        <p>© 2025 MAX ROY. Tous droits réservés.</p>
     </footer>
 </body>
 </html>
